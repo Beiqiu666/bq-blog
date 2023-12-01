@@ -1,6 +1,6 @@
 {
-  "name": "HeoMusic",
-  "short_name": "HeoMusic",
+  "name": "北秋的音乐库",
+  "short_name": "北秋的音乐库",
   "theme_color": "#000000",
   "background_color": "#000000",
   "display": "fullscreen",
@@ -8,14 +8,14 @@
   "start_url": "/",
   "icons": [
       {
-        "src": "img/icon-r_mini.png",
+        "src": "https://z1.ax1x.com/2023/11/16/pitl5tA.jpg",
         "sizes": "192x192",
-        "type": "image/png"
+        "type": "image/jpg"
       },
       {
-        "src": "img/icon-r.webp",
+        "src": "https://z1.ax1x.com/2023/11/16/pitl5tA.jpg",
         "sizes": "512x512",
-        "type": "image/png"
+        "type": "image/jpg"
       }
     ]
 }

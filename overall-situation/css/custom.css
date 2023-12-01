@@ -430,4 +430,25 @@ figure.highlight pre .addition {
         flex-basis: 100% !important;
     }
 }
-/* 自定义底部  End */
+/* 404自定义 */
+#error-wrap .error-content .error-info a:hover {
+    background-color: #f47466;
+    transition: .3s;
+    box-shadow: rgba(244, 116, 102, 0.88);
+}
+#error-wrap .error-content .error-info a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.3rem 1.5rem;
+    background: rgba(244, 116, 102, 0.88);
+    color: var(--btn-color);
+}
+.button--animated {
+    position: relative;
+    z-index: 1;
+    border-radius: 8px!important;
+    transition: .3s;
+    width: 108px;
+    margin: auto;
+    margin-bottom: 0px;
+}

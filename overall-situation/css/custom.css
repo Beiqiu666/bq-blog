@@ -452,3 +452,7 @@ figure.highlight pre .addition {
     margin: auto;
     margin-bottom: 0px;
 }
+/* 加密文件输入框字符大小 */
+.hbe-input-field-wave {
+    font-size: 2.2em !important;
+}

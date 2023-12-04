@@ -456,3 +456,10 @@ figure.highlight pre .addition {
 .hbe-input-field-wave {
     font-size: 2.2em !important;
 }
+/* 复选框颜色更改 */
+.checkbox input[type="checkbox"]:checked {
+    background: #f7afa7 !important;
+}
+.checkbox input {
+    border: 2px solid #f7afa7 !important;
+}

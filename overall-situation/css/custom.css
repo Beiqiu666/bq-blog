@@ -13,6 +13,17 @@
 #body-wrap {
     background: linear-gradient(90deg,rgba(247,149,51,.1),rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1))
 }
+/* 设置全局字体 */
+@font-face {
+    font-family: 'bq';
+    src: url('https://npm.elemecdn.com/ethan4116-blog/lib/font/ZhuZiAWan.ttf');
+    font-display: swap;
+}
+
+body,
+.gitcalendar {
+    font-family: bq !important;
+}
 /*标题样式*/
 #article-container h1:before,
 #article-container h2:before,

@@ -73,7 +73,7 @@ hr:before {
 
 #article-container h1:before {
     margin-left: -1.3rem;
-    top: calc(50% - .5rem);
+    top: calc(50% - .65rem);
     font-size: 1rem
 }
 
@@ -91,7 +91,7 @@ hr:before {
 
 #article-container h2:before {
     margin-left: -1.4rem;
-    top: calc(50% - .45rem);
+    top: calc(50% - .6rem);
     font-size: .9rem
 }
 
@@ -111,7 +111,7 @@ hr:before {
 
 #article-container h3:before {
     margin-left: -1.2rem;
-    top: calc(50% - .4rem);
+    top: calc(50% - .55rem);
     font-size: .8rem
 }
 
@@ -129,7 +129,7 @@ hr:before {
 
 #article-container h4:before {
     margin-left: -1rem;
-    top: calc(50% - .35rem);
+    top: calc(50% - .5rem);
     font-size: .7rem
 }
 
@@ -147,7 +147,7 @@ hr:before {
 
 #article-container h5:before {
     margin-left: -.8rem;
-    top: calc(50% - .3rem);
+    top: calc(50% - .45rem);
     font-size: .6rem
 }
 
@@ -165,7 +165,7 @@ hr:before {
 
 #article-container h6:before {
     margin-left: -.8rem;
-    top: calc(50% - .3rem);
+    top: calc(50% - .45rem);
     font-size: .6rem
 }
 

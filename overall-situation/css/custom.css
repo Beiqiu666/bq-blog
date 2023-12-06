@@ -565,3 +565,247 @@ figure.highlight pre .addition {
     color: #666666;
     white-space: nowrap;
 }
+/* Twikoo评论样式 */
+#twikoo a {
+    color: #f47466;
+    text-decoration: underline;
+}
+
+#twikoo .tk-footer a {
+    text-decoration: none;
+}
+
+.el-loading-spinner .path {
+    stroke: #f47466 !important;
+}
+
+#page .tk-comments-container>.tk-comment {
+    border-bottom: 1px dashed #e3e3e3;
+    margin-bottom: 0.2rem;
+    padding-bottom: 1.2rem;
+}
+
+#twikoo .tk-content {
+    /* background: rgba(40, 40, 40, .6); */
+    padding: 0 18px;
+    /* padding: 10px 18px; */
+    border-radius: 10px;
+}
+
+#twikoo .tk-replies .tk-content {
+    /* padding: 10px 18px !important; */
+    padding: 14px 18px 0 !important;
+}
+
+/* [data-theme="dark"] #twikoo .tk-content{
+    background: rgba(40, 40, 40,.6);
+} */
+.tk-tag-green {
+    margin: 0 4px 0 0;
+    background-color: #f7afa7 !important;
+    color: #fff !important;
+    border-color: #f7afa7 !important;
+}
+
+[data-theme="dark"] .tk-tag-green {
+    background-color: #55585a !important;
+    color: #fff !important;
+    border-color: #55585a !important;
+}
+
+.tk-replies>.tk-comment {
+    border-top: 1px dashed #e3e3e3;
+    padding-top: 0.7rem;
+    margin-top: 4px;
+}
+
+.tk-avatar {
+    margin-right: 0.6rem !important;
+}
+
+.tk-nick {
+    color: #f47466 !important;
+    font-size: 1rem !important;
+    line-height: 32px;
+    margin-right: 4px;
+    text-decoration: none !important;
+}
+
+.tk-actions a {
+    color: #4c4948 !important;
+}
+
+.tk-actions a:hover {
+    color: #f47466 !important;
+    cursor: pointer !important;
+}
+
+.tk-ruser {
+    color: #f47466 !important;
+    text-decoration: none !important;
+}
+
+.el-button--primary {
+    color: #FFF;
+    background-color: #f47466 !important;
+    border-color: #f47466 !important;
+    border-color: #409EFF;
+}
+
+.tk-extras {
+    margin-top: 0.3rem;
+    padding-bottom: 0.5rem;
+}
+
+.tk-extras .tk-extra {
+    border: 1px solid #e3e3e3;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 6px !important;
+}
+
+[data-theme="dark"] .tk-extras .tk-extra {
+    border: 1px solid #999999 !important;
+}
+
+.tk-icon.__comments,
+.tk-action-icon,
+.tk-action-count {
+    color: #f47466 !important;
+    cursor: pointer !important;
+}
+
+.tk-action-link {
+    text-decoration: none !important;
+}
+
+[data-theme="dark"] .tk-icon.__comments,
+[data-theme="dark"] .tk-action-icon,
+[data-theme="dark"] .tk-action-count {
+    color: #e3e3e3 !important;
+}
+
+.tk-expand {
+    border: 1px solid #e3e3e3;
+    background: rgba(40, 40, 40, .6) !important;
+    border-radius: 10px;
+    margin-top: 12px;
+    box-sizing: border-box;
+}
+
+.tk-expand:hover {
+    background: #f47466 !important;
+    color: #fff !important;
+}
+
+.twikoo .el-textarea__inner:focus {
+    border-color: #f47466 !important;
+}
+
+[data-theme="dark"] .twikoo .el-textarea__inner:focus {
+    border-color: #fff !important;
+}
+
+/* 表情包相关样式 */
+
+.tk-input .el-textarea__inner {
+    min-height: 120px !important;
+}
+
+#twikoo .OwO-body {
+    max-width: 100% !important;
+}
+
+.OwO .OwO-body .OwO-items .OwO-item {
+    width: 3em !important;
+    padding: 4px 3px !important;
+}
+
+.OwO .OwO-body .OwO-items-emoji .OwO-item {
+    font-size: 24px !important;
+    line-height: 24px !important;
+    width: auto !important;
+    padding: 6px !important;
+}
+
+#twikoo .OwO .OwO-body .OwO-items:nth-child(1),
+#twikoo .OwO .OwO-body .OwO-items:nth-child(4),
+#twikoo .OwO .OwO-body .OwO-items:nth-child(5) {
+    max-height: 360px !important;
+}
+
+#twikoo .OwO .OwO-body .OwO-items:nth-child(4) .OwO-item {
+    width: calc((100% / 5) - 10px) !important;
+    margin: 5px;
+}
+
+#twikoo .OwO .OwO-body .OwO-items:nth-child(5) .OwO-item {
+    width: calc((100% / 7) - 10px) !important;
+    margin: 5px;
+}
+
+#twikoo .OwO-items li[title|=menhera] img,
+#twikoo .OwO-items li[title|=ikun] img {
+    width: 100% !important;
+}
+
+.tk-comment .tk-owo-emotion[alt*=menhera] {
+    /* width: 300px !important; */
+    width: 240px !important;
+}
+
+.tk-comment .tk-owo-emotion[alt*=ikun] {
+    width: 160px !important;
+}
+
+.tk-comment .vemoji[alt|=menhera],
+.tk-comment .tk-owo-emotion[alt*=menhera],
+.tk-comment .vemoji[alt|=ikun],
+.tk-comment .tk-owo-emotion[alt*=ikun] {
+    margin: 8px 1px;
+    display: block !important;
+    border-radius: 6px;
+}
+
+.tk-comment .vemoji[alt|=menhera],
+.tk-comment .tk-owo-emotion[alt*=menhera] {
+    /* max-width: 300px !important;
+    max-height: 300px !important; */
+    max-width: 240px !important;
+    max-height: 240px !important;
+}
+
+.tk-comment .vemoji[alt|=ikun],
+.tk-comment .tk-owo-emotion[alt*=ikun] {
+    max-width: 160px !important;
+    max-height: 160px !important;
+}
+
+@media screen and (max-width: 768px) {
+
+    .tk-comment .vemoji[alt|=menhera],
+    .tk-comment .tk-owo-emotion[alt*=menhera],
+    .tk-comment .vemoji[alt|=ikun],
+    .tk-comment .tk-owo-emotion[alt*=ikun] {
+        max-width: calc(100% - 30px) !important;
+        max-height: calc(100% - 30px) !important;
+    }
+
+    #twikoo .OwO .OwO-body .OwO-items-image .OwO-item[title*=menhera],
+    #twikoo .OwO .OwO-body .OwO-items-image .OwO-item[title*=ikun] {
+        box-sizing: border-box;
+    }
+
+    #twikoo .OwO .OwO-body .OwO-items-image .OwO-item[title*=menhera] {
+        width: calc(33% - 10px) !important;
+    }
+
+    #twikoo .OwO .OwO-body .OwO-items-image .OwO-item[title*=ikun] {
+        width: calc(25% - 10px) !important;
+    }
+
+    #twikoo .OwO .OwO-body .OwO-items-image .OwO-item {
+        width: 14% !important;
+        box-sizing: border-box;
+    }
+}

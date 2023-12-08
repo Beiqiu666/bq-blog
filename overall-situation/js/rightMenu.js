@@ -236,25 +236,18 @@ let bq = {};
 bq.toRandomPost = function(){
     //urls:随机切换的路径
     var urls=[
-        "https://beiqiu.top/post/c8f15973.html",
-        "https://beiqiu.top/post/4a17b156.html",
-        "https://beiqiu.top/post/f13fd461.html",
-        "https://beiqiu.top/post/b4bbe9af.html",
-        "https://beiqiu.top/post/788b6b51.html",
-        "https://beiqiu.top/post/efc815e8.html",
-        "https://beiqiu.top/post/92b7df7c.html",
-        "https://beiqiu.top/post/502a6bfe.html",
-        "https://beiqiu.top/post/f29ac09e.html",
-        "https://beiqiu.top/music",
-        "https://beiqiu.top/circle",
-        "https://beiqiu.top/categories",
-        "https://beiqiu.top/tags",
-        "https://beiqiu.top/photos",
-        "https://beiqiu.top/movies",
-        "https://beiqiu.top/about",
-        "https://beiqiu.top/sponsorWall",
-        "https://beiqiu.top/comment",
-        "https://beiqiu.top/link",
+        "https://beiqiu.top/tlink/",
+        "https://beiqiu.top/article/bq272701.html",
+        "https://beiqiu.top/article/xy272701.html",
+        "https://beiqiu.top/article/xy272700.html",
+        "https://beiqiu.top/sponsorWall/",
+        "https://beiqiu.top/article/ds272702.html",
+        "https://beiqiu.top/link/",
+        "https://beiqiu.top/article/ds272701.html",
+        "https://beiqiu.top/music/",
+        "https://beiqiu.top/comment/",
+        "https://beiqiu.top/about/",
+        "https://beiqiu.top/article/rz272701.html",
     ];
     n = Math.floor(Math.random()*urls.length);
     location.href= urls[n];
